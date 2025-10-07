@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents: "**/*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: article
+---
+
+Browse everything I've published. Use the filters to drill down. More to come!

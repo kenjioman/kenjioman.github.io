@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+
+python: ./env/bin/python
+
+website:
+  title: "KenjiOman.dev"
+  description: "My professional website containing projects, notes, reviews, etc"
+  site-url: https://kenjioman.github.io/
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts/index.qmd
+        text: Blog
+      - href: about.qmd
+        text: About
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kenji-oman/
+        aria-label: LinkedIn
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/kenjioman
+  page-footer:
+    left: "© 2025 Kenji Oman. Text licensed under CC BY 4.0; code under MIT."
+  comments:
+    giscus:
+      repo: kenjioman/kenjioman.github.io/
+      repo-id: R_kgDOPepT8A
+      category: Website Comments
+      category-id: DIC_kwDOPepT8M4CuOgl
+      mapping: pathname
+      reactions-enabled: true
+      loading: lazy
+      input-position: top
+      theme: github
+    
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
+    respect-user-color-scheme: true
+    toc: true
+    code-fold: true
+    code-tools: true
+    highlight-style: arrow
+    page-layout: article
+
+execute: 
+  freeze: auto

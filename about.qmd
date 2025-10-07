@@ -1,0 +1,6 @@
+---
+title: "About"
+---
+
+I'm Kenji — data scientist and AI/ML practitioner. This site collects my
+projects, notes, and reviews. If you want to connect, please reach out on [LinkedIn](https://www.linkedin.com/in/kenji-oman/).
