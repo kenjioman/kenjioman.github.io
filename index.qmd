@@ -1,6 +1,7 @@
 ---
 title: "Welcome"
 page-layout: full
+comments: false
 ---
 
 # 👋 Hi, I’m Kenji

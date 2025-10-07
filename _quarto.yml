@@ -27,7 +27,7 @@ website:
     left: "© 2025 Kenji Oman. Text licensed under CC BY 4.0; code under MIT."
   comments:
     giscus:
-      repo: kenjioman/kenjioman.github.io/
+      repo: kenjioman/kenjioman.github.io
       repo-id: R_kgDOPepT8A
       category: Website Comments
       category-id: DIC_kwDOPepT8M4CuOgl

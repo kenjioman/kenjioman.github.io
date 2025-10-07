@@ -1,5 +1,6 @@
 ---
 title: "About"
+comments: false
 ---
 
 I'm Kenji — data scientist and AI/ML practitioner. This site collects my
